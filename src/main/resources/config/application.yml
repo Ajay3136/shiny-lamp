@@ -31,4 +31,17 @@ currency-service:
 logging:
   level:
     org:
-      springframework: trace
+      springframework: debug
+      
+# ===================================================================
+#
+# Database Connectivity
+#
+# ===================================================================
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test_db
+    username: root
+    password: Ajay@3136
+
