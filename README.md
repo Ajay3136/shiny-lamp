@@ -1,2 +1,2 @@
 # simpleAPI
-Simple project for Spring Boot Restful API
+Simple project for Spring Boot Restful API using springboot
