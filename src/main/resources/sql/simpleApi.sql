@@ -4,7 +4,7 @@
 
 CREATE DATABASE /*!32312 IF NOT EXISTS*/ `test_db`;
 
-USE `seniorcaredev`;
+USE `test_db`;
 
 --
 -- Table structure for table `user`
