@@ -23,4 +23,13 @@ public class CourseController {
 				);
 	}
 
+	@RequestMapping("/courses1")
+	public List<Course> retrieveAllCourses1(){
+		return Arrays.asList(
+				new Course((long) 1, "Physics", "CBD101"),
+				new Course((long) 2, "Chemistry", "CBD223"),
+				new Course((long) 3, "Maths", "CBD282")
+				);
+	}
+
 }
