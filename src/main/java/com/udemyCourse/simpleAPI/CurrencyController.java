@@ -15,4 +15,9 @@ public class CurrencyController {
 		return currencyServiceConfiguration;
 	}
 
+	@RequestMapping("/currency1")
+	public CurrencyServiceConfiguration retrieveCurrencyService1(){
+		return currencyServiceConfiguration;
+	}
+
 }
